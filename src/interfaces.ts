@@ -244,6 +244,7 @@ export interface TSInstance {
     watchHost?: WatchHost;
     watchOfFilesAndCompilerOptions?: typescript.WatchOfFilesAndCompilerOptions<typescript.BuilderProgram>;
     program?: typescript.Program;
+    hasUnaccountedModifiedFiles?: boolean;
     changedFilesList?: boolean;
 }
 
